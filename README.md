@@ -69,13 +69,14 @@ Most implementation repositories are private (IP protection), but each major app
 
 ![ETH Gas Tracker](https://raw.githubusercontent.com/logicencoder/eth-gas-tracker-overview/main/assets/eth-gas-tracker-overview.png)
 
-- Overview repo: `https://github.com/logicencoder/eth-gas-tracker-overview`
-- Private implementation: `logicencoder/eth_gas_tracker`
-- Delivery mode: standalone local-first runtime
-- Live website mode: planned (public link will be added when released)
-- Live URL: `Coming soon`
-- Scope: realtime gas intelligence, heatmaps, calculator, alerts, decision support
-- Stack used: Python/FastAPI backend, HTML/JS frontend, SQLite history, WebSocket + REST
+- Standalone overview repo: `https://github.com/logicencoder/eth-gas-tracker-overview`
+- Live backend overview repo: `https://github.com/logicencoder/eth-gas-live-backend-overview-public`
+- Live plugin overview repo: `https://github.com/logicencoder/eth-gas-live-plugin-overview-public`
+- Private implementation repos: `logicencoder/eth_gas_tracker`, `logicencoder/eth-gas-live-backend-private`, `logicencoder/eth-gas-live-plugin-private`
+- Delivery mode: local-first runtime + live WordPress deployment
+- Live URL: `https://logicencoder.com/ethereum-gas-tracker/`
+- Scope: realtime gas intelligence, heatmaps, calculator, alerts, mission-control observability
+- Stack used: Python/FastAPI backend, WordPress/PHP plugin frontend, native HTML/JS dashboard, SQLite, WebSocket + REST, Cloudflare Tunnel
 
 ### 4) DNX Swap WebApp / Arbitrage Engine
 
