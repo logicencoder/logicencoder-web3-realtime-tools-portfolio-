@@ -53,7 +53,19 @@ Most implementation repositories are private (IP protection), but each major app
 - Scope: manual execution + multi-mode automation + realtime orderbook/trades + diagnostics
 - Stack used: Python/FastAPI backend, HTML/JS frontend, REST + WebSocket hybrid
 
-### 2) ETH Gas Tracker
+### 2) MEXC Exchange — Live Trading Statistics (WordPress + FastAPI)
+
+![MEXC Exchange Live Stats](https://raw.githubusercontent.com/logicencoder/mexc-live-stats-plugin-overview-public/main/screenshot.png)
+
+- Backend overview repo: `https://github.com/logicencoder/mexc-live-stats-backend-overview-public`
+- Plugin overview repo: `https://github.com/logicencoder/mexc-live-stats-plugin-overview-public`
+- Private implementation repos: `logicencoder/mexc-live-stats-backend-private` + `logicencoder/mexc-live-stats-plugin-private`
+- Delivery mode: live web deployment (WordPress frontend + private FastAPI backend)
+- Live URL: `https://logicencoder.com/mexc-app/`
+- Scope: realtime exchange statistics UI, async ingestion/aggregation backend, snapshot/SEO publishing flow
+- Stack used: Python/FastAPI/asyncpg backend + WordPress/PHP plugin frontend + WebSocket/REST + snapshot pipeline
+
+### 3) ETH Gas Tracker
 
 ![ETH Gas Tracker](https://raw.githubusercontent.com/logicencoder/eth-gas-tracker-overview/main/assets/eth-gas-tracker-overview.png)
 
@@ -65,7 +77,7 @@ Most implementation repositories are private (IP protection), but each major app
 - Scope: realtime gas intelligence, heatmaps, calculator, alerts, decision support
 - Stack used: Python/FastAPI backend, HTML/JS frontend, SQLite history, WebSocket + REST
 
-### 3) DNX Swap WebApp / Arbitrage Engine
+### 4) DNX Swap WebApp / Arbitrage Engine
 
 ![DNX Swap UI](https://raw.githubusercontent.com/logicencoder/dnx-swap-webapp-overview/main/assets/ui.png)
 
@@ -76,7 +88,7 @@ Most implementation repositories are private (IP protection), but each major app
 - Scope: swap/arbitrage operations with execution controls and safety tooling
 - Stack used: Python/FastAPI backend, HTML/JS frontend, chain-aware tx workflow
 
-### 4) ETH Chain Swaps Monitor
+### 5) ETH Chain Swaps Monitor
 
 ![ETH Chain Swaps Monitor](https://raw.githubusercontent.com/logicencoder/eth-chain-swaps-monitor-overview/main/assets/eth-chain-swaps-monitor-overview.png)
 
@@ -96,7 +108,7 @@ Most implementation repositories are private (IP protection), but each major app
 | Realtime architecture | WebSocket + REST hybrid patterns documented in all overview repos |
 | Performance optimization | Low-latency dashboards, caching/aggregation patterns, and low-resource hosting constraints handled in production workflows |
 | Data analytics mindset | Gas heatmaps, trend analysis, ranked event feeds, and signal-focused dashboard design |
-| Practical frontend delivery | HTML/CSS/JS operator UIs + WordPress frontend deployments + custom PHP plugins/themes |
+| Practical frontend delivery | HTML/CSS/JS operator UIs + live WordPress frontend deployments + custom PHP plugins/themes |
 | Architecture communication | `https://github.com/logicencoder/react-vite-architecture-for-dummies` + structured architecture sections in overviews |
 | Tooling flexibility | Windsurf-primary workflow with Cursor/Claude support when it improves delivery speed/quality |
 | Learning velocity | Built stack independently from zero and continuously expand tools based on project requirements |
