@@ -61,6 +61,7 @@ Most implementation repositories are private (IP protection), but each major app
 - Private implementation: `logicencoder/eth_gas_tracker`
 - Delivery mode: standalone local-first runtime
 - Live website mode: planned (public link will be added when released)
+- Live URL: `Coming soon`
 - Scope: realtime gas intelligence, heatmaps, calculator, alerts, decision support
 - Stack used: Python/FastAPI backend, HTML/JS frontend, SQLite history, WebSocket + REST
 
@@ -83,6 +84,7 @@ Most implementation repositories are private (IP protection), but each major app
 - Private implementation: `logicencoder/eth_chain_swaps_monitor`
 - Delivery mode: standalone local-first monitor
 - Live website mode: planned (public link will be added when released)
+- Live URL: `Coming soon`
 - Scope: swap detection + transaction decoding + alert feed + operator dashboard
 - Stack used: Python/FastAPI backend, HTML/JS frontend, WebSocket + REST APIs
 
