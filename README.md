@@ -1,170 +1,96 @@
-# Logic Encoder – Web3 Tools Developer & Real‑Time Systems Architect
+# LogicEncoder — Python/FastAPI Realtime Portfolio
 
-I build real‑time dashboards, crypto analytics tools, trading bots and interfaces, gas trackers and various web3 transaction systems.  
-All tools are **multi‑asset**, CEXes **multi‑exchange ready** and designed to work with any trading pair or token.
+This portfolio is a practical map of what I build.
+I am self-taught, built these systems from zero, and keep improving them by shipping, measuring, and iterating.
 
-My work focuses on:
-- real-time dashboards
-- web3 tools development
-- crypto analytics
-- trading bot UI
-- gas analytics & mempool monitoring
-- orderbook visualization
-- live trades streaming
-- DeFi transaction management
-- FastAPI websocket backends
-- Python real-time systems
+Most implementation repositories are private (IP protection), but each major app has a public overview with architecture, feature scope, and screenshots.
 
-Live demos of my applications:  
-➡️ https://logicencoder.com/applications/  
+## What I Focus On
 
-Contact page:  
-➡️ https://logicencoder.com/contact/
+- Python + FastAPI backends (async-first)
+- Realtime systems (WebSocket + REST)
+- Data-heavy dashboards for trading/blockchain operations
+- Performance-minded architecture (aggregation, caching, practical resource constraints)
+- Fast AI-assisted delivery (Cursor / Claude / Windsurf workflows)
 
----
+## Core Stack I Use
 
-## 🚀 Skills & Expertise
+### Backend
+- Python
+- FastAPI
+- AsyncIO
+- Web3 integrations
+- JSON/SQLite-style runtime persistence depending on app needs
 
-### Web3 / Blockchain
-- architecture of web3 tools  
-- gas analytics, mempool analytics  
-- multi‑asset transaction systems  
-- DEX/CEX API integrations  
-- blockchain data processing  
-- real-time monitoring systems  
+### Frontend
+- HTML/CSS/JavaScript dashboards
+- React/Vite on selected projects
+- Realtime UI components (live feeds, charts, operator panels)
 
-### Trading & Analytics
-- real-time trading dashboards  
-- all metrics visualization  
-- live trades stream  
-- buy/sell metrics, VWAP, volatility  
-- bot UI (grid, DCA, re-entry)  
-- analytics panels for any trading pair  
+### Infrastructure / Ops
+- Dockerized runtime where needed
+- Self-hosted processing and controlled public surface
+- API-first integration pattern
+- Monitoring/diagnostic dashboards and runtime metrics
 
-### Frontend & UI/UX
-- HTML, CSS, JavaScript  
-- real-time UI with WebSockets  
-- charts, heatmaps, visual analytics  
-- responsive dashboards for traders  
+## Project Overviews (Public)
 
-### Backend & Systems
-- Python (FastAPI)  
-- PHP  
-- WebSockets  
-- own node / backend infrastructure  
-- heavy lifting optimization  
-- testing, measuring, profiling  
-- caching & performance tuning  
+### 1) MEXC Trading Dashboard + Multi-Mode Bot
 
-### AI-Assisted Development
-- architecture & logic design  
-- AI-generated code  
-- debugging & optimization  
-- rapid prototyping
-- security
+![MEXC Dashboard](https://raw.githubusercontent.com/logicencoder/mexc-trading-dashboard-bot-overview/main/assets/mexc-trading-dashboard-bot-overview.png)
 
-### Bonus Stack
-- Typescript (basics)  
-- Rust (basics)  
-- Linux server management  
-- deployment & infrastructure  
+- Overview repo: `https://github.com/logicencoder/mexc-trading-dashboard-bot-overview`
+- Private implementation: `logicencoder/mexc-trading-dashboard-bot-suite` (+ `logicencoder/mexc_trading_app`)
+- Scope: manual execution + multi-mode automation + realtime orderbook/trades + diagnostics
+- Stack used: Python/FastAPI backend, HTML/JS frontend, REST + WebSocket hybrid
 
----
+### 2) ETH Gas Tracker
 
-## 📦 Projects
+![ETH Gas Tracker](https://raw.githubusercontent.com/logicencoder/eth-gas-tracker-overview/main/assets/eth-gas-tracker-overview.png)
 
-### Real-Time Gas Tracker
-Universal gas analytics tool
+- Overview repo: `https://github.com/logicencoder/eth-gas-tracker-overview`
+- Private implementation: `logicencoder/eth_gas_tracker`
+- Scope: realtime gas intelligence, heatmaps, calculator, alerts, decision support
+- Stack used: Python/FastAPI backend, HTML/JS frontend, SQLite history, WebSocket + REST
 
-**Features:**
-- live gas prices  
-- hourly/daily heatmaps  
-- fee calculator  
-- smart timing insights  
-- network health score  
-- historical charts & percentiles  
+### 3) DNX Swap Webapp / Arbitrage Engine
 
-**Keywords:** ethereum gas tracker, gas analytics, mempool analytics, real-time dashboard  
-#➡️ Repo: *add link*  
-#➡️ Demo: https://logicencoder.com/applications/
+![DNX Swap UI](https://raw.githubusercontent.com/logicencoder/dnx-swap-webapp-overview/main/assets/ui.png)
 
----
+- Overview repo: `https://github.com/logicencoder/dnx-swap-webapp-overview`
+- Private implementation: `logicencoder/dnx-swap-webapp`
+- Scope: swap/arbitrage operations with execution controls and safety tooling
+- Stack used: Python/FastAPI backend, HTML/JS frontend, chain-aware tx workflow
 
-### Trading Bot Interface (Multi‑Asset)
-Full UI for trading bots with real-time data.
+### 4) ETH Chain Swaps Monitor
 
-**Features:**
-- grid bot  
-- re-entry bot  
-- randomization  
-- orderbook + live trades  
-- bot performance panel  
-- activity log  
-- real-time refresh  
-- supports any trading pair  
+![ETH Chain Swaps Monitor](https://raw.githubusercontent.com/logicencoder/eth-chain-swaps-monitor-overview/main/assets/eth-chain-swaps-monitor-overview.png)
 
-**Keywords:** trading bot interface, grid bot UI, real-time trading dashboard, websocket dashboard  
-#➡️ Repo: *add link*  
-#➡️ Demo: https://logicencoder.com/applications/
+- Overview repo: `https://github.com/logicencoder/eth-chain-swaps-monitor-overview`
+- Private implementation: `logicencoder/eth_chain_swaps_monitor`
+- Scope: swap detection + transaction decoding + alert feed + operator dashboard
+- Stack used: Python/FastAPI backend, HTML/JS frontend, WebSocket + REST APIs
 
----
+## Supporting Public Repositories
 
-### Universal Transaction Manager
-Tool for managing transactions and gas across multiple assets.
+- `https://github.com/logicencoder/react-vite-architecture-for-dummies` (architecture communication style)
+- `https://github.com/logicencoder/hardware-monitor` (runtime observability tooling)
+- `https://github.com/logicencoder/dynex-0xdnx-dhip-richlist-monitor` (blockchain analytics dashboard)
 
-**Features:**
-- send any token with custom gas  
-- config gas profiles  
-- stuck tx checker  
-- nonce scanner  
-- cancel pending transactions  
-- real-time logs
-- experimental prototype
+## How I Work
 
-**Keywords:** defi transaction manager, nonce tracking, stuck tx detection, custom gas tool  
-#➡️ Repo: *add link*  
-#➡️ Demo: https://logicencoder.com/applications/
+- Build from concrete problem to working version quickly
+- Keep architecture readable so another developer can follow it
+- Learn missing tools fast when needed
+- Prefer honest capability statements over inflated claims
 
----
+## Experience Statement (Honest)
 
-### Real-Time Trading Dashboard (Multi‑Asset)
-Analytical panel for any trading pair with real-time data.
+I built and learned this stack independently from zero by shipping real projects.
+I do not claim to know everything; I focus on learning fast, solving practical problems, and delivering systems that work.
 
-**Features:**
-- 24h analytics  
-- buy/sell metrics  
-- volatility, stability  
-- net flow  
-- trade analytics  
-- live trades stream  
-- hourly volume charts  
+## Availability
 
-**Keywords:** crypto analytics dashboard, orderbook visualization, live trades stream  
-#➡️ Repo: *add link*  
-➡️ Demo: https://logicencoder.com/applications/
-➡️ Demo: https://logicencoder.com/mexc-app/
+Open to roles focused on Python/FastAPI backend, realtime systems, and practical product delivery.
 
-
----
-
-## 🎯 Looking For
-
-- collaboration on:
-  - real-time dashboards  
-  - trading bot tools  
-  - DeFi tools  
-  - web3 infrastructure  
-  - blockchain analytics
-  - UI/UX
-
-- external development  
-- architecture  
-- extending existing products
-- rapid prototyping
-
----
-
-## 📬 Contact
-If you build similar tools or want to expand your project, feel free to reach out.
-
-➡️ https://logicencoder.com/contact/
+Contact: `https://logicencoder.com/contact/`
